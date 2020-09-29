@@ -8,19 +8,28 @@
   <link rel="dns-prefetch" href="http://jjjjjuck.github.io">
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Pythonpython 3  python缺点： 第二个缺点就是代码不能加密。所以，凡是编译型的语言，都没有这个问题，而解释型的语言，则必须把源码发布出去。 第一个缺点就是运行速度慢，和C程序相比非常慢，因为Python是解释型语言，你的代码在执行时会一行一行地翻译成CPU能理解的机器码，这个翻译过程非常耗时，所以很慢。而C程序是运行前直接编译成CPU能执行的机器码，所以非常快。  python">
+  <meta name="description" content="神经网络![](http:&#x2F;&#x2F;image.cntronics.com&#x2F;kbupload&#x2F;kb_1372578775.jpg “三层神经网络”         三层神经网络学习是找到输入层与输出层之间相关性，中间层可以创造相关性。 点积运算可以体现相关性。 分类 前馈神经网络，循环网络，对称连接网络 what‘s neutral network？ 神经网络是机器学习中的一种模型，是一种模仿动物神经网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://jjjjjuck.github.io/2020/09/16/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:url" content="http://jjjjjuck.github.io/2020/09/29/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Pythonpython 3  python缺点： 第二个缺点就是代码不能加密。所以，凡是编译型的语言，都没有这个问题，而解释型的语言，则必须把源码发布出去。 第一个缺点就是运行速度慢，和C程序相比非常慢，因为Python是解释型语言，你的代码在执行时会一行一行地翻译成CPU能理解的机器码，这个翻译过程非常耗时，所以很慢。而C程序是运行前直接编译成CPU能执行的机器码，所以非常快。  python">
+<meta property="og:description" content="神经网络![](http:&#x2F;&#x2F;image.cntronics.com&#x2F;kbupload&#x2F;kb_1372578775.jpg “三层神经网络”         三层神经网络学习是找到输入层与输出层之间相关性，中间层可以创造相关性。 点积运算可以体现相关性。 分类 前馈神经网络，循环网络，对称连接网络 what‘s neutral network？ 神经网络是机器学习中的一种模型，是一种模仿动物神经网">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="c:/Users/小戈/AppData/Roaming/Typora/typora-user-images/image-20200915185820839.png">
-<meta property="article:published_time" content="2020-09-16T14:09:59.206Z">
-<meta property="article:modified_time" content="2020-09-16T09:05:06.208Z">
+<meta property="og:image" content="http://www.51wendang.com/pic/deebe656d3a950a11b4a2218/1-1821-png_6_1_0_494_580_255_148_786.795_1110.345-2782-0-16-2782.jpg">
+<meta property="og:image" content="https://pic1.zhimg.com/80/v2-7ee8cabcbd707dd4deab7155af2ba4cd_1440w.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-0ced86f32dfa241fc9de10421edbd9b4_1440w.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-01285f87ff9d523f62d2d4f6586583c5_1440w.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-8309413cef2521d53a8e0f8b82bc0e0c_1440w.jpg">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=z+=+%5Csum_%7B%7D%5E%7B%7D%7Bw_%7Bi%7D+x_%7Bi%7D%7D+b">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Csigma(z)">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-1581316b33944233af88b967ad2901b7_1440w.jpg">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cbullet">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cast">
+<meta property="article:published_time" content="2020-09-29T11:37:49.906Z">
+<meta property="article:modified_time" content="2020-09-29T11:33:04.507Z">
 <meta property="article:author" content="xiaoge">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:/Users/小戈/AppData/Roaming/Typora/typora-user-images/image-20200915185820839.png">
+<meta name="twitter:image" content="http://www.51wendang.com/pic/deebe656d3a950a11b4a2218/1-1821-png_6_1_0_494_580_255_148_786.795_1110.345-2782-0-16-2782.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -156,54 +165,66 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Python学习笔记" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-神经网络" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><h2 id="python-3"><a href="#python-3" class="headerlink" title="python 3"></a>python 3</h2><img src="C:\Users\小戈\AppData\Roaming\Typora\typora-user-images\image-20200915185820839.png" alt="image-20200915185820839" style="zoom:80%;" />
+        <h1 id="神经网络"><a href="#神经网络" class="headerlink" title="神经网络"></a>神经网络</h1><p>![](<a target="_blank" rel="noopener" href="http://image.cntronics.com/kbupload/kb_1372578775.jpg">http://image.cntronics.com/kbupload/kb_1372578775.jpg</a> “三层神经网络”</p>
+<img src="http://www.51wendang.com/pic/deebe656d3a950a11b4a2218/1-1821-png_6_1_0_494_580_255_148_786.795_1110.345-2782-0-16-2782.jpg" style="zoom:10%;" />
 
-<h3 id="python缺点："><a href="#python缺点：" class="headerlink" title="python缺点："></a>python缺点：</h3><ol>
-<li>第二个缺点就是代码不能加密。所以，凡是编译型的语言，都没有这个问题，而解释型的语言，则必须把源码发布出去。</li>
-<li>第一个缺点就是运行速度慢，和C程序相比非常慢，因为Python是解释型语言，你的代码在执行时会一行一行地翻译成CPU能理解的机器码，这个翻译过程非常耗时，所以很慢。而C程序是运行前直接编译成CPU能执行的机器码，所以非常快。</li>
-</ol>
-<h3 id="python解释器"><a href="#python解释器" class="headerlink" title="python解释器"></a>python解释器</h3><pre><code>+ 确实存在多种Python解释器。
-+ 官方版本的解释器：CPython。这个解释器是用C语言开发的，所以叫CPython。在命令行下运行`python`就是启动CPython解释器。CPython是使用最广的Python解释器。</code></pre>
-<ul>
-<li>Jython是运行在Java平台上的Python解释器，可以直接把Python代码编译成Java字节码执行。</li>
-</ul>
-<ul>
-<li>当我们写：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; &#39;ABC&#39;</span><br></pre></td></tr></table></figure>
 
-<p>时，Python解释器干了两件事情：</p>
-<ol>
-<li>在内存中创建了一个<code>&#39;ABC&#39;</code>的字符串；</li>
-<li>在内存中创建了一个名为<code>a</code>的变量，并把它指向<code>&#39;ABC&#39;</code>。</li>
-</ol>
-<p>也可以把一个变量<code>a</code>赋值给另一个变量<code>b</code>，这个操作实际上是把变量<code>b</code>指向变量<code>a</code>所指向的数据。</p>
-<ul>
-<li><p>在Python中，通常用全部大写的变量名表示常量：</p>
-</li>
-<li><p>在Python中，有两种除法，一种除法是<code>/</code>：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; 10 &#x2F; 3</span><br><span class="line">3.3333333333333335</span><br></pre></td></tr></table></figure>
 
-<p><code>/</code>除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; 9 &#x2F; 3</span><br><span class="line">3.0</span><br></pre></td></tr></table></figure>
 
-<p>还有一种除法是<code>//</code>，称为地板除，两个整数的除法仍然是整数：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; 10 &#x2F;&#x2F; 3</span><br><span class="line">3</span><br></pre></td></tr></table></figure>
 
-</li>
-</ul>
-<p>ASCII编码是1个字节，而Unicode编码通常是2个字节。之后又出现了把Unicode编码转化为“可变长编码”的<code>UTF-8</code>编码。UTF-8编码把一个Unicode字符根据不同的数字大小编码成1-6个字节，常用的英文字母被编码成1个字节，汉字通常是3个字节，</p>
-<p>在计算机内存中，统一使用Unicode编码，当需要保存到硬盘或者需要传输的时候，就转换为UTF-8编码。</p>
-<p>Python的文件类型分为3种，即源代码、字节代码和优化代码。pyc文件是和平台无关的，可以在大部分操作系统上运行。如下语句可以用来产生pyc文件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import py_compile</span><br><span class="line">py_compile.compile(‘hello.py’)</span><br></pre></td></tr></table></figure>
 
-<p>4 经过优化的源文件会以.pyo为后缀，即优化代码。它也不能直接用文本编辑器修改，如下命令可用来生成pyo文件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -O -m py_complie hello.py</span><br></pre></td></tr></table></figure>
+
+<h3 id="三层神经网络"><a href="#三层神经网络" class="headerlink" title="三层神经网络"></a>三层神经网络</h3><p>学习是找到输入层与输出层之间相关性，中间层可以创造相关性。</p>
+<p><strong>点积运算可以体现相关性。</strong></p>
+<p><strong>分类</strong></p>
+<p>前馈神经网络，循环网络，对称连接网络</p>
+<p><strong>what‘s neutral network？</strong></p>
+<p>神经网络是机器学习中的一种模型，是一种模仿动物神经网络行为特征，进行分布式并行信息处理的算法数学模型。这种网络依靠系统的复杂程度，通过调整内部大量节点之间相互连接的关系，从而达到处理信息的目的。</p>
+<h2 id="输出的正规化"><a href="#输出的正规化" class="headerlink" title="输出的正规化"></a>输出的正规化</h2><p>假如经过公式<strong>H=X*W1+b1</strong>计算得到的H值为：(1,-2,3,-4,7…)，那么经过阶跃函数激活层后就会变为(1,0,1,0,1…)，经过ReLU激活层之后会变为(1,0,3,0,7…)。</p>
+<p>ReLU：当输入小于0时，输出0；当输入大于0时，输出等于输入。</p>
+<p>通过上述两个线性方程的计算，我们就能得到最终的输出Y了，但是如果你还对线性代数的计算有印象的话，应该会知道：*<strong>一系列线性方程的运算最终都可以用一个线性方程表示*</strong>。也就是说，上述两个式子联立后可以用一个线性方程表达。对于两次神经网络是这样，就算网络深度加到100层，也依然是这样。这样的话神经网络就失去了意义。</p>
+<p>所以这里要对网络注入灵魂：<strong>激活层</strong>。</p>
+<p><img src="https://pic1.zhimg.com/80/v2-7ee8cabcbd707dd4deab7155af2ba4cd_1440w.jpg" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-0ced86f32dfa241fc9de10421edbd9b4_1440w.jpg" alt="![img](https://pic4.zhimg.com/80/v2-01285f87ff9d523f62d2d4f6586583c5_1440w.jpg)"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-01285f87ff9d523f62d2d4f6586583c5_1440w.jpg" alt="img"></p>
+<h2 id="如何衡量输出的好坏"><a href="#如何衡量输出的好坏" class="headerlink" title="如何衡量输出的好坏"></a>如何衡量输出的好坏</h2><p>通过Softmax层之后，我们得到了I，II，III和IV这四个类别分别对应的概率，但是要注意，这是神经网络计算得到的概率值结果，而非真实的情况。</p>
+<p>比如，Softmax输出的结果是(90%,5%,3%,2%)，真实的结果是(100%,0,0,0)。虽然输出的结果可以正确分类，但是与真实结果之间是有差距的，一个优秀的网络对结果的预测要无限接近于100%，为此，我们需要将Softmax输出结果的好坏程度做一个“量化”。</p>
+<p>一种直观的解决方法，是用1减去Softmax输出的概率，比如1-90%=0.1。不过更为常用且巧妙的方法是，求<strong>对数的负数</strong>。</p>
+<p>还是用90%举例，对数的负数就是：-log0.9=0.046</p>
+<p>可以想见，概率越接近100%，该计算结果值越接近于0，说明结果越准确，该输出叫做“<strong>交叉熵损失</strong>（Cross Entropy Error）”。</p>
+<p><strong>我们训练神经网络的目的，就是通过更新权值和偏置，尽可能地减少这个“交叉熵损失”。</strong></p>
+<h2 id="反向传播与参数优化"><a href="#反向传播与参数优化" class="headerlink" title="反向传播与参数优化"></a>反向传播与参数优化</h2><p>上边的1~4节，讲述了神经网络的正向传播过程。一句话复习一下：<strong>神经网络的传播都是形如Y=WX+b的矩阵运算；为了给矩阵运算加入非线性，需要在隐藏层中加入激活层；输出层结果需要经过Softmax层处理为概率值，并通过交叉熵损失来量化当前网络的优劣。</strong></p>
+<p>算出交叉熵损失后，就要开始反向传播了。其实反向传播就是一个<strong>参数优化</strong>的过程，优化对象就是网络中的所有W和b（因为其他所有参数都是确定的）。</p>
+<p>神经网络的神奇之处，就在于它可以自动做W和b的优化，在深度学习中，参数的数量有时会上亿，不过其优化的原理和我们这个两层神经网络是一样的。</p>
+<p>梯度下降法</p>
+<p><img src="https://pic4.zhimg.com/80/v2-8309413cef2521d53a8e0f8b82bc0e0c_1440w.jpg" alt="img"></p>
+<p>感知机</p>
+<p>前向传播</p>
+<p>虽然DNN看起来很复杂，但是从小的局部模型来说，还是和感知机一样，即一个线性关系 <img src="https://www.zhihu.com/equation?tex=z+=+%5Csum_%7B%7D%5E%7B%7D%7Bw_%7Bi%7D+x_%7Bi%7D%7D+b" alt="[公式]"> 加上一个激活函数 <img src="https://www.zhihu.com/equation?tex=%5Csigma(z)" alt="[公式]"> 。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-1581316b33944233af88b967ad2901b7_1440w.jpg" alt="img"></p>
+<p><img src="https://www.zhihu.com/equation?tex=%5Cbullet" alt="[公式]"> 为矩阵乘法， <img src="https://www.zhihu.com/equation?tex=%5Cast" alt="[公式]"> 为矩阵中对应位置的元素相乘。</p>
+<p><strong>Cost Function</strong> 损失函数</p>
+<h2 id="Quadratic-cost"><a href="#Quadratic-cost" class="headerlink" title="Quadratic cost"></a>Quadratic cost</h2><h2 id="Cross-entropy-cost"><a href="#Cross-entropy-cost" class="headerlink" title="Cross-entropy cost"></a>Cross-entropy cost</h2><p>所以训练集，其实就是给小孩看的，带有正确答案的图片，对于深度学习而言，训练集就是用来求解神经网络的权重的，最后形成模型；而测试集，就是用来验证模型的准确度的。</p>
+<h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>什么是过拟合？</p>
+<blockquote>
+<p> 拟合表示通过数据点的，找出变量间关系。过拟合是神经网络的一大痛点，严重降低预测的准确性。由于样本，网络结构等问题，学习后误差虽然快速降低，但没有很好的学到本质，而是对噪声更多的学习，导致预测时，有细节上的差别就无法识别（分类）。</p>
+</blockquote>
+<p>如何解决？</p>
+<blockquote>
+<p>提前停止。使用dropout。随机关闭某些节点。</p>
+<p>1.正则化（Regularization）（L1和L2）</p>
+<p>2.数据增强（Data augmentation），也就是增加训练数据样本</p>
+<p>3.Dropout</p>
+<p>4.early stopping</p>
+</blockquote>
+<p><strong><em>\</em>1.validation data是什么？**</strong></p>
+<p>它事实上就是用来避免过拟合的。在训练过程中，我们通经常使用它来确定一些超參数（比方,<strong><em>\</em>依据validation data上的accuracy来确定\</strong>*<em>early stopping*</em>*<em>的epoch大小、依据validation data确定learning rate***</em>等等）。那为啥不直接在testing data上做这些呢？由于假设在testing data做这些，那么随着训练的进行，我们的网络实际上就是在一点一点地overfitting我们的testing data，导致最后得到的testing accuracy没有什么參考意义。因此，training data的作用是计算梯度更新权重，testing data则给出一个accuracy以推断网络的好坏。</p>
+
       
 
       
@@ -282,7 +303,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://jjjjjuck.github.io/2020/09/16/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://jjjjjuck.github.io/2020/09/29/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -296,18 +317,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/09/29/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/09/29/hha/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          (no title)
+          hha
         
       </div>
     </a>
   
   
-    <a href="/2020/09/16/about/me/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">page</div>
+    <a href="/2020/09/16/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
       <i class="icon-circle-right"></i>
     </a>
   
